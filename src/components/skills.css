@@ -1,0 +1,41 @@
+.skills-container {
+    background-color: black;
+    padding: 50px;
+    overflow: hidden;
+}
+
+/* .manual--heading {
+    width: 30rem;
+    background-color: brown;
+
+} */
+.alert.alert-primary {
+    text-align: center;
+    /* background-color: rgb(210, 107, 34); */
+    /* border: none; */
+}
+
+.skills {
+    padding-top: 50px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card ul li{
+    background-color: rgb(245, 245, 157);
+    font-size: large;
+}
+
+.card {
+    width: 18rem;
+    border: none;
+    background-color: rgb(245, 245, 157);
+}
+
+.card-header {
+    background-color: rgb(220, 133, 71);
+    font-size: large;
+}

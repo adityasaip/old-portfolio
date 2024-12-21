@@ -1,0 +1,46 @@
+.achievements {
+    display: flex;
+    background-color: black;
+    padding: 25px;
+    align-items: center;
+    overflow: hidden;
+    /* border: 1px solid yellow; */
+}
+
+.content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 0.3rem;
+    font-size: 1rem;
+    /* border: 1px solid red; */
+    max-width: 75ch;
+}
+
+.content-list {
+    background-color: black;
+    color: white;
+    
+}
+
+.title { 
+    /* max-width: 2rem; */
+    /* display: inline-block; */
+    min-width: 12rem;
+    
+}
+
+.title h2 {
+    font-family: cursive;
+    writing-mode: vertical-lr;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:560px){
+    .title {
+        height: auto;
+        padding: 20px;
+    }
+    .title h2 {
+        writing-mode: vertical-lr;
+        font-family: cursive;
+    }
+}

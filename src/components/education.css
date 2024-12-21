@@ -1,0 +1,19 @@
+.edu-item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.edu-item h3, .edu-item p {
+    margin: 0;
+}
+.edu-item h3 {
+    border-bottom: 1px solid white;
+    margin-right: 30vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.education {
+    background-color: black;
+    padding: 25px;
+}

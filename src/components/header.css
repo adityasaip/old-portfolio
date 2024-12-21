@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+.drop-down {
+    margin-left: auto;
+    display: none;
+}
+
+
+.nav-bar {
+    font-family: 'Tilt Neon', sans-serif;
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 25px;
+}
+
+.header--logo {
+    padding: 0;
+    margin: 0;
+    width: 80px;
+}
+
+.nav-list {
+    margin-left: auto;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-anchor {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-list li {
+    transition: transform .2s;
+}
+.nav-list li:hover {
+    transform: scale(1.5);
+}
+
+
+@media screen and (max-width: 500px) {
+    .nav-bar {
+        padding-right: 25px;
+    }
+    .drop-down {
+        display: block;
+        cursor: pointer;
+    }
+    .drop-down :hover {
+        transform: scale(1.5);
+    }
+    
+    /* .nav-list {
+      display: none;
+    } */
+
+    .nav-list {
+    flex-direction: column;
+    width: 100%;
+    border-top: 1px solid white;
+    padding-top: 30px;
+    /* transition: all .5s ease; */
+    }
+
+    .nav-list li {
+        padding-right: 30px;
+        text-align: center;
+        margin: 0;
+        line-height: 50px;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .nav-list.expanded {
+        display: block;
+        /* transform: translateY(0); */
+    }
+    }
